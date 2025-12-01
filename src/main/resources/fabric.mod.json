@@ -14,10 +14,16 @@
       "net.tastypommeslul.minorca.client.MinorcaDataGenerator"
     ],
     "client": [
-      "net.tastypommeslul.minorca.client.MinorcaClient"
+      {
+      "adapter": "kotlin",
+      "value": "net.tastypommeslul.minorca.client.MinorcaClient"
+    }
     ],
     "main": [
-      "net.tastypommeslul.minorca.Minorca"
+      {
+        "adapter": "kotlin",
+        "value": "net.tastypommeslul.minorca.Minorca"
+      }
     ]
   },
   "mixins": [
