@@ -9,7 +9,7 @@ class ModBlockTagProvider(
   output: FabricDataOutput,
   registriesFuture: CompletableFuture<HolderLookup.Provider>
 ) : FabricTagProvider.BlockTagProvider(output, registriesFuture) {
-  override fun addTags(p0: HolderLookup.Provider) {
+  override fun addTags(provider: HolderLookup.Provider) {
 
   }
 }

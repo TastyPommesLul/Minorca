@@ -12,10 +12,10 @@ class ModRecipeProvider(
   registriesFuture: CompletableFuture<HolderLookup.Provider>
 ) : FabricRecipeProvider(output, registriesFuture) {
   override fun createRecipeProvider(
-    p0: HolderLookup.Provider,
-    p1: RecipeOutput
+    provider: HolderLookup.Provider,
+    output: RecipeOutput
   ): RecipeProvider {
-    return object : RecipeProvider(p0, p1) {
+    return object : RecipeProvider(provider, output) {
       override fun buildRecipes() {
 
       }
